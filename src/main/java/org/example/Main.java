@@ -6,6 +6,14 @@ public class Main {
     public static void main(String[] args) {
       int [] arr = {1,2,3,4,5};
       Node node = new Node();
-      node.convertToLinkedList(arr);
+     Node head = node.convertToLinkedList(arr);
+
+     IterateLinkedList list = new IterateLinkedList();
+     list.iterateList(head);
+
+     RemoveHead removeHead = new RemoveHead();
+     removeHead.removeHead(head);
+
+      //
     }
 }
