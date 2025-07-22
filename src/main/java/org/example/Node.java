@@ -30,7 +30,6 @@ public class Node {
             //Move the mover to next element
             mover = temp;
         }
-
         return head;
     }
 }
